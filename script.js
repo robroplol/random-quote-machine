@@ -1,2 +1,5 @@
-var ourRequest = new XMLHttpRequest();
-
+$(document).ready(function() {
+	$("#getMessage").on("click", function(){
+      	  $(".message").html("<p>Rob is cool</p>");
+    });
+});
